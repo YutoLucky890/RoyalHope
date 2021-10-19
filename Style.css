@@ -1,0 +1,37 @@
+body{
+  font-family:
+  sans-serif
+}３
+.headerInner{
+width: 650px;
+height: 100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+div.contentsitem img{
+  width: 300px;
+}
+a {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+}
+a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #2ecc71;
+  transition: .3s;
+}
+a:hover::after {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
